@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Ejercicio 2";
+}
+
+<section>
+    <h1>Calculadora de Crecimiento de Cabello</h1>
+
+    <p>Ingrese la longitud inicial de su cabello en cm:</p>
+    <input type="number" id="longitudInicial" placeholder="Longitud inicial en cm" step="0.01" required>
+
+    <p>Ingrese la longitud final deseada en cm:</p>
+    <input type="number" id="longitudFinal" placeholder="Longitud final en cm" step="0.01" required>
+
+    <p>Seleccione la unidad de tiempo:</p>
+    <select id="unidadTiempo">
+        <option value="meses">Meses</option>
+        <option value="semanas">Semanas</option>
+        <option value="dias">Días</option>
+    </select>
+
+    <button onclick="calcularTiempo()">Calcular Tiempo</button>
+
+    <p id="resultado"></p>
+</section>
+
+<script src="~/js/Ejercicio2.js" asp-append-version="true"></script>

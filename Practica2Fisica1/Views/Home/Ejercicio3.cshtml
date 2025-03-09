@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Ejercicio 3";
+}
+
+<section>
+    <h1>Calculadora de Distancia y Encuentro de Carritos</h1>
+
+    <h2>Parte 1: Calcular la separación después de un tiempo</h2>
+    <p>Ingrese la distancia de separación inicial entre los carritos (en metros):</p>
+    <input type="number" id="distanciaInicial" placeholder="Distancia inicial (m)" step="0.01" required>
+
+    <p>Ingrese la aceleración del primer carrito (en m/s²):</p>
+    <input type="number" id="aceleracion1" placeholder="Aceleración carrito 1 (m/s²)" step="0.01" required>
+
+    <p>Ingrese la aceleración del segundo carrito (en m/s²):</p>
+    <input type="number" id="aceleracion2" placeholder="Aceleración carrito 2 (m/s²)" step="0.01" required>
+
+    <button onclick="calcularSeparacion()">Calcular Separación</button>
+
+    <h3 id="resultadoSeparacion"></h3>
+
+    <h2>Parte 2: Calcular el tiempo en que los carritos se encuentran</h2>
+    <button onclick="calcularEncuentro()">Calcular Tiempo de Encuentro</button>
+
+    <h3 id="resultadoEncuentro"></h3>
+</section>
+
+<script src="~/js/Ejercicio3.js" asp-append-version="true"></script>

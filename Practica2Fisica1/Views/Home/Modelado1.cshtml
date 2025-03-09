@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Modelado 1";
+}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<script src="~/js/Modelado1.js" asp-append-version="true"></script>
+
+<section>
+
+    <div>
+        <label for="v0">Velocidad inicial (m/s): </label>
+        <input type="number" id="v0" step="1" min="1" max="200">
+    </div>
+
+    <div>
+        <label for="angle">Ángulo de lanzamiento (grados): </label>
+        <input type="number" id="angle" step="1" min="1" max="90">
+    </div>
+
+    <div>
+        <p>Posición X: <span id="posX">0</span></p>
+        <p>Posición Y: <span id="posY">0</span></p>
+        <p>Tiempo: <span id="displayT">0</span> s</p>
+        <p>Velocidad: <span id="displayV">0</span> m/s</p>
+    </div>
+
+    <div>
+        <button id="startButton">Simular</button>
+        <button id="resetButton">Resetear</button>
+    </div>
+</section>
