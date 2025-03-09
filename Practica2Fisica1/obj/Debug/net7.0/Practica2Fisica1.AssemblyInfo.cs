@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Practica2Fisica1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce4481c1b09f446ad1ae4d356560454987ad6a83")]
 [assembly: System.Reflection.AssemblyProductAttribute("Practica2Fisica1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Practica2Fisica1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Matias\\source\\repos\\Practica2Fisica1\\Practica2Fisica1\\Practica2Fisica1.csproj": {}
+    "C:\\Users\\Matias\\OneDrive\\Documentos\\Repositories\\Fisica1\\Practica2Fisica1\\Practica2Fisica1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Matias\\source\\repos\\Practica2Fisica1\\Practica2Fisica1\\Practica2Fisica1.csproj": {
+    "C:\\Users\\Matias\\OneDrive\\Documentos\\Repositories\\Fisica1\\Practica2Fisica1\\Practica2Fisica1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matias\\source\\repos\\Practica2Fisica1\\Practica2Fisica1\\Practica2Fisica1.csproj",
+        "projectUniqueName": "C:\\Users\\Matias\\OneDrive\\Documentos\\Repositories\\Fisica1\\Practica2Fisica1\\Practica2Fisica1.csproj",
         "projectName": "Practica2Fisica1",
-        "projectPath": "C:\\Users\\Matias\\source\\repos\\Practica2Fisica1\\Practica2Fisica1\\Practica2Fisica1.csproj",
+        "projectPath": "C:\\Users\\Matias\\OneDrive\\Documentos\\Repositories\\Fisica1\\Practica2Fisica1\\Practica2Fisica1.csproj",
         "packagesPath": "C:\\Users\\Matias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matias\\source\\repos\\Practica2Fisica1\\Practica2Fisica1\\obj\\",
+        "outputPath": "C:\\Users\\Matias\\OneDrive\\Documentos\\Repositories\\Fisica1\\Practica2Fisica1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
